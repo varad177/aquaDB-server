@@ -1,4 +1,4 @@
-import common_names from "../indian_common_fish names.json" assert { type: "json" };
+import common_names from "../indian_common_fish names.json" with { type: "json" };
 import { ratio } from "fuzzball"; 
 import ValidatedCatchData from "../models/ValidatedCatchData.js";
 import CatchData from "../models/FishCatchData.js";
